@@ -12,6 +12,8 @@
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
   - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
   - [👥 Authors ](#-authors-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
@@ -57,6 +59,25 @@ This repository includes files with plain SQL that can be used to recreate a dat
 - Use [schema.sql](./schema.sql) to create all tables.
 - Use [data.sql](./data.sql) to populate tables with sample data.
 - Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
+
+### Prerequisites
+
+- [PostgreSQL](https://www.postgresql.org/download/)
+
+### Setup
+
+Clone the project.
+
+```sh
+git clone git@github.com:VaheStepanyan100/vet-clinic.git
+```
+In the project directory, you can run:
+
+```sh
+    Execute schema.sql
+    Execute data.sql
+    Execute queries.sql
+```
 
 <!-- AUTHORS -->
 
