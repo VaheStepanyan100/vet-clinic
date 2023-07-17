@@ -69,7 +69,7 @@ This repository includes files with plain SQL that can be used to recreate a dat
 Clone the project.
 
 ```sh
-git clone https://github.com/kifle23/vet-clinic-database.git
+git clone git@github.com:VaheStepanyan100/vet-clinic.git
 ```
 In the project directory, you can run:
 
