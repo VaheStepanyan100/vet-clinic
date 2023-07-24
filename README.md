@@ -19,6 +19,7 @@
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
+  - [Schema Diagram](#schema-diagram)
 
 <!-- PROJECT DESCRIPTION -->
 
@@ -121,3 +122,6 @@ I would like to thank [Microverse](https://www.microverse.org/) for this opportu
 This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Schema Diagram
+![Schema Diagram](schema-diagram.png)
