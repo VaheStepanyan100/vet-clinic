@@ -66,3 +66,8 @@ ALTER TABLE owners ADD COLUMN email VARCHAR(120);
 CREATE INDEX idx_visits_animal_id ON visits (animal_id);
 CREATE INDEX idx_visits_vet_id ON visits (vet_id);
 CREATE INDEX idx_owners_email ON owners (email);
+
+CREATE INDEX idx_pationt_id ON medical_histories(patient_id);
+CREATE INDEX idx_medical_history_id ON invoices(medical_history_id);
+CREATE INDEX idx_invoice_id ON invoice_items(invoice_id);
+CREATE INDEX idx_treatment_id ON invoice_items(treatment_id);
